@@ -2140,17 +2140,17 @@ shape = SubResource("RectangleShape2D_wx02g")
 position = Vector2(28, 100)
 sprite_frames = SubResource("SpriteFrames_stiad")
 animation = &" dino idle"
-frame_progress = 0.0057780803
+frame_progress = 0.7811749
 
 [node name="CharacterBody2D2" type="CharacterBody2D" parent="." unique_id=1487452752]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D2" unique_id=2108760542]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D2/CollisionShape2D" unique_id=1300143331]
-position = Vector2(-133, -5)
+position = Vector2(-81, -14)
 sprite_frames = SubResource("SpriteFrames_wx02g")
 animation = &" GO-A-B"
-frame_progress = 0.4788038
+frame_progress = 0.84506154
 
 [node name="CharacterBody2D3" type="CharacterBody2D" parent="." unique_id=610464822]
 
@@ -2160,4 +2160,4 @@ frame_progress = 0.4788038
 position = Vector2(159, -16)
 sprite_frames = SubResource("SpriteFrames_57igk")
 animation = &" dino-run"
-frame_progress = 0.24656263
+frame_progress = 0.4070628
